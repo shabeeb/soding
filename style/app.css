@@ -1,0 +1,113 @@
+.cart-header {
+    color: #000080;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0
+}
+.pdp-details {
+    position: relative;
+    color: #696969
+}
+.pdp-image-container {
+    float: left;
+    width: 22%
+}
+.pdp-description-container {
+    float: left;
+    width: 78%
+}
+.price {
+    float: right
+}
+.uppercase-text {
+    text-transform: uppercase
+}
+.clr {
+    clear: both
+}
+.pdp-description-container h2 {
+    color: #000080;
+    font-size: 14px;
+    margin: 0
+}
+.apple-icon {
+    background: url(../images/apple-icon.gif) no-repeat;
+    width: 16px;
+    height: 16px;
+    padding-left: 14px;
+    font-size: 16px;
+}
+.add-icon {
+    background: url(../images/add.jpg) no-repeat;
+    width: 22px;
+    height: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-left: 10px
+}
+.blank-icon {
+    background: url(../images/blank-add.jpg) no-repeat;
+    width: 22px;
+    height: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-right: 10px
+}
+.btn-blue {
+    color: #fff;
+    background-color: #000080;
+    border-color: #000080;
+}
+.btn-white {
+    color: #000;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-blue:hover {
+    color: #fff
+}
+.gift-code {
+    color: #000080;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block
+}
+.m-top20 {
+    margin-top: 20px
+}
+.details-header {
+    padding: 20px;
+    border: #E6E6FA 1px solid;
+    margin: 2px;
+    color: #000080;
+    background-color: #F0F8FF;
+    margin-bottom: 20px;
+}
+.details-header-left {
+    width: 70%;
+    float: left;
+    font-size: 14px;
+    margin: 0
+}
+.details-header-right {
+    width: 20%;
+    float: right;
+    text-align: right;
+}
+.close-btn{
+    position: absolute;
+    right: 0;
+    top: -3px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile version: */
+}
+@media (min-width: 768px) {
+    /* For desktop version: */
+    .wrapper{
+        width: 30%;
+        margin: 0 auto;
+    }
+}
